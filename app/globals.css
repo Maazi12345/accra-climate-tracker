@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+/* Colour tokens: change colours here, not in the components.
+   Theme: "Kente warm" — cream, deep gold and forest green. */
+:root {
+  --background: #fbf6ea; /* warm cream */
+  --foreground: #1f1a12;
+  --card: #fffdf8;
+  --line: #e8dcc2;
+  --muted: #6b604f;
+  --accent: #8a5300; /* deep gold, dark enough for links */
+  --gold: #e0a526; /* bright gold for decoration only */
+  --forest: #17432a; /* the "right now" banner */
+  --forest-ink: #f6efdc; /* text on the banner */
+  --kente-red: #b3261e;
+
+  /* Level colours: keep these clearly different from each other. */
+  --level-good: #2c8a55;
+  --level-moderate: #b8900a;
+  --level-high: #d2601a;
+  --level-extreme: #b3261e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #15130e;
+    --foreground: #f1ead8;
+    --card: #1e1b14;
+    --line: #3a3426;
+    --muted: #b0a58f;
+    --accent: #e9b949;
+    --gold: #e0a526;
+    --forest: #10301f;
+    --forest-ink: #f1ead8;
+    --kente-red: #e0574c;
+
+    --level-good: #5cc489;
+    --level-moderate: #e8c341;
+    --level-high: #f08a3e;
+    --level-extreme: #f06464;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-line: var(--line);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-gold: var(--gold);
+  --color-forest: var(--forest);
+  --color-forest-ink: var(--forest-ink);
+  --color-kente-red: var(--kente-red);
+  --color-level-good: var(--level-good);
+  --color-level-moderate: var(--level-moderate);
+  --color-level-high: var(--level-high);
+  --color-level-extreme: var(--level-extreme);
+  --font-sans: "Plus Jakarta Sans Variable", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+/* A thin kente-inspired stripe: gold, green, red, black blocks. */
+.kente-stripe {
+  height: 8px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--gold) 0 28px,
+    var(--forest) 28px 40px,
+    var(--gold) 40px 52px,
+    var(--kente-red) 52px 64px,
+    #1f1a12 64px 72px
+  );
+}

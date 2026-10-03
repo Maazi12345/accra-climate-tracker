@@ -1,0 +1,166 @@
+[
+  {
+    "id": "accra-air-04",
+    "city": "Accra",
+    "category": "Air quality",
+    "title": "Wear a mask and limit time outdoors during dusty harmattan days",
+    "summary": "Ghana Health Service advice for dusty, dry weather: limit outdoor activity, wear a face mask, drink water and keep taking asthma medicine.",
+    "details": [
+      "Limit outdoor activities.",
+      "Wear a face mask.",
+      "Stay hydrated.",
+      "People with asthma or other chronic respiratory conditions should keep taking their medication."
+    ],
+    "when": [
+      "air-high"
+    ],
+    "sources": [
+      {
+        "title": "Graphic Online: See the 4 measures the Ghana Health Service has prescribed amid harsh weather conditions",
+        "url": "https://www.graphic.com.gh/news/general-news/see-the-4-measures-the-ghana-health-service-has-prescribed-amid-harsh-weather-conditions.html"
+      }
+    ],
+    "verification": {
+      "status": "flagged",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness",
+      "flag_reason": "Spot check failed: the only source is a news article from February 2024. The original Ghana Health Service press release couldn't be found on an official page."
+    }
+  },
+  {
+    "id": "accra-air-05",
+    "city": "Accra",
+    "category": "Air quality",
+    "title": "Report open waste burning to your assembly",
+    "summary": "A clean air campaign with 13 Accra assemblies says residents can report open waste burning by phone so the assembly can act.",
+    "details": [
+      "The campaign is run by Infinity 970 with Breathe Cities Accra and the Clean Air Fund.",
+      "It works with 13 municipal assemblies in Accra, including Ayawaso North."
+    ],
+    "when": [
+      "any",
+      "air-high"
+    ],
+    "sources": [
+      {
+        "title": "MyJoyOnline: Accra residents urged to report open waste burning (10 Sep 2026)",
+        "url": "https://www.myjoyonline.com/accra-residents-urged-to-report-open-waste-burning/"
+      }
+    ],
+    "verification": {
+      "status": "flagged",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness",
+      "flag_reason": "Spot check failed: no reporting phone number is published in the source or on an official assembly page, so a resident can't act on it yet."
+    }
+  },
+  {
+    "id": "accra-air-06",
+    "city": "Accra",
+    "category": "Air quality",
+    "title": "Use Breathe Accra's neighbourhood air sensors",
+    "summary": "Breathe Cities has put 67 real-time air quality sensors across 13 Accra districts.",
+    "details": [
+      "67 low-cost sensors across 13 districts.",
+      "Data goes to municipal assemblies to guide action on waste burning."
+    ],
+    "when": [
+      "air-moderate",
+      "air-high"
+    ],
+    "sources": [
+      {
+        "title": "Breathe Cities: Accra",
+        "url": "https://breathecities.org/cities/accra/"
+      }
+    ],
+    "verification": {
+      "status": "flagged",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness",
+      "flag_reason": "Spot check failed: the page says the data is public but gives no link or app where residents can see it."
+    }
+  },
+  {
+    "id": "accra-heat-04",
+    "city": "Accra",
+    "category": "Heat",
+    "title": "Plant and care for a tree through Tree for Life",
+    "summary": "Ghana's Tree for Life initiative aims to plant 30 million seedlings in 2026. Trees cool streets and homes.",
+    "details": [
+      "Launched 19 March 2026 at Achimota Forest Reserve.",
+      "30 million seedlings targeted for 2026."
+    ],
+    "when": [
+      "any",
+      "heat-high"
+    ],
+    "sources": [
+      {
+        "title": "Ministry of Lands and Natural Resources: Ghana launches Tree for Life initiative",
+        "url": "https://mlnr.gov.gh/ghana-launches-tree-for-life-initiative-with-renewed-push-for-green-economy/"
+      }
+    ],
+    "verification": {
+      "status": "flagged",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness",
+      "flag_reason": "Spot check failed: the official page doesn't say how residents can take part or where to get seedlings."
+    }
+  },
+  {
+    "id": "accra-waste-06",
+    "city": "Accra",
+    "category": "Waste",
+    "title": "Send waste to the Accra Compost and Recycling Plant",
+    "summary": "The Integrated Recycling and Compost Plant on Mortuary Road recycles and composts solid waste from central Accra communities.",
+    "details": [
+      "Capacity of 400 tonnes per 16-hour shift, with an 80% recovery rate.",
+      "Located on Mortuary Road, set up to serve communities including Korle Bu, Chorkor, James Town and Agbogbloshie."
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Accra Metropolitan Assembly: Clean Accra Agenda: Integrated Recycling and Compost Plant commissioned",
+        "url": "https://ama.gov.gh/news-details.php?n=cTBzNzQzcTU1bjhyNDc2ODlubjkxODZxc25wc3I3cm9zNDA2bzFvOQ%3D%3D"
+      }
+    ],
+    "verification": {
+      "status": "flagged",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness",
+      "flag_reason": "Freshness check failed: the only official source is from April 2019, and it doesn't say whether residents can bring waste there directly."
+    }
+  },
+  {
+    "id": "accra-flood-05",
+    "city": "Accra",
+    "category": "Flooding",
+    "title": "Stay away from drains and flooded roads in heavy rain",
+    "summary": "GMet advises moving away from flood-prone areas when warned, avoiding open drains, not driving through flooded roads and not dumping refuse in drains.",
+    "details": [
+      "Relocate from flood-prone areas when warnings are issued.",
+      "Avoid open drains during heavy rain.",
+      "Don't drive through flooded roads.",
+      "Don't dump refuse into drains."
+    ],
+    "when": [
+      "rain-heavy",
+      "flood-risk"
+    ],
+    "sources": [
+      {
+        "title": "Ghana News Agency: Ghana Meteo urges citizens to take weather advisories seriously",
+        "url": "https://gna.org.gh/2026/05/ghana-meteo-urges-citizens-to-take-weather-advisories-seriously/"
+      }
+    ],
+    "verification": {
+      "status": "flagged",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness",
+      "flag_reason": "Spot check failed: this advice is only in a news report. NADMO's safety tips page didn't show its content when checked, so it couldn't be confirmed on an official page."
+    }
+  }
+]

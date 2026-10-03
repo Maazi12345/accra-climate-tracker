@@ -1,0 +1,432 @@
+[
+  {
+    "id": "accra-heat-01",
+    "city": "Accra",
+    "category": "Heat",
+    "title": "Get GMet's daily forecast on WhatsApp",
+    "summary": "The Ghana Meteorological Agency publishes forecasts every day and shares them on its WhatsApp channel, so you can plan around hot afternoons.",
+    "details": [
+      "Follow the GMet WhatsApp channel or check meteo.gov.gh for the 24-hour forecast.",
+      "GMet issues daily forecasts three times a day: 05:00, 11:00 and 17:00.",
+      "GMet is also on X (@GhanaMet) and Facebook (GMetForecastOffice)."
+    ],
+    "when": [
+      "any",
+      "heat-high"
+    ],
+    "sources": [
+      {
+        "title": "Ghana Meteorological Agency: 24 Hour Impact-Based Forecast",
+        "url": "https://www.meteo.gov.gh/product/24-hour-impact-based-forecast/"
+      },
+      {
+        "title": "Ghana Meteorological Agency: WhatsApp channel",
+        "url": "https://whatsapp.com/channel/0029VaeMdfd17EmsxVJPyD1f"
+      },
+      {
+        "title": "Ghana News Agency: Ghana Meteo urges citizens to take weather advisories seriously (27 May 2026)",
+        "url": "https://gna.org.gh/2026/05/ghana-meteo-urges-citizens-to-take-weather-advisories-seriously/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "accra-heat-02",
+    "city": "Accra",
+    "category": "Heat",
+    "title": "Keep food safe in hot weather",
+    "summary": "Food spoils fast in Accra's heat. The Food and Drugs Authority's hot-weather guide gives simple rules for households, cooks and market sellers.",
+    "details": [
+      "Keep meat, dairy, fruit, vegetables and cooked meals refrigerated at or below 4°C.",
+      "Don't leave food at room temperature for more than two hours, or one hour when it is above 32°C.",
+      "Cook meat, poultry and seafood to 75°C inside, and reheat leftovers to the same temperature.",
+      "Sellers: keep meat, fish and dairy in insulated coolers or boxes with ice."
+    ],
+    "when": [
+      "heat-high"
+    ],
+    "sources": [
+      {
+        "title": "Food and Drugs Authority Ghana: Food handling during hot weather",
+        "url": "https://fdaghana.gov.gh/wp-content/uploads/2025/04/HANDLING-FOOD-IN-HOT-WEATHER.pdf"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "accra-heat-03",
+    "city": "Accra",
+    "category": "Heat",
+    "title": "Call 112 for a heat emergency",
+    "summary": "If someone becomes seriously unwell in extreme heat, call the National Ambulance Service on 112. It's free from any network.",
+    "details": [
+      "Call 112: the national emergency hotline, free from any network, 24 hours a day, 7 days a week.",
+      "Don't use the website contact form for a medical emergency.",
+      "Non-emergency enquiries: 0501614877 or 0505982870, Monday to Friday, 8 a.m. to 5 p.m."
+    ],
+    "when": [
+      "heat-extreme"
+    ],
+    "sources": [
+      {
+        "title": "National Ambulance Service Ghana: Contact us",
+        "url": "https://nas.gov.gh/contact.php"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "accra-air-01",
+    "city": "Accra",
+    "category": "Air quality",
+    "title": "Check GMet's daily air quality forecast",
+    "summary": "The Ghana Meteorological Agency publishes a free PM2.5 (fine dust and smoke) forecast for the whole country every day. Check it before outdoor exercise.",
+    "details": [
+      "Forecasts are listed newest first on the GMet air quality page.",
+      "Levels are given as Good, Moderate, Unhealthy for Sensitive Groups or Unhealthy.",
+      "There's also a map view at meteo.gov.gh/mapviewer."
+    ],
+    "when": [
+      "air-moderate",
+      "air-high"
+    ],
+    "sources": [
+      {
+        "title": "Ghana Meteorological Agency: PM2.5 Air Quality Forecast",
+        "url": "https://www.meteo.gov.gh/product/air-quality-index/"
+      },
+      {
+        "title": "Ghana Meteorological Agency: Air quality forecasting",
+        "url": "https://www.meteo.gov.gh/Services/air-quality-forecasting/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "accra-air-02",
+    "city": "Accra",
+    "category": "Air quality",
+    "title": "See live air quality across Accra's neighbourhoods",
+    "summary": "IQAir shows hourly air quality readings for Accra from local monitoring stations, with health advice for each level. It's useful for checking your own area.",
+    "details": [
+      "The page lists the most polluted stations in Accra right now.",
+      "When air is moderate or worse, sensitive groups should reduce outdoor exercise.",
+      "Close your windows to keep dirty outdoor air out.",
+      "Sensitive groups should wear a mask outdoors."
+    ],
+    "when": [
+      "air-moderate",
+      "air-high"
+    ],
+    "sources": [
+      {
+        "title": "IQAir: Accra air quality",
+        "url": "https://www.iqair.com/ghana/greater-accra/accra"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "accra-air-03",
+    "city": "Accra",
+    "category": "Air quality",
+    "title": "Complain about smoke or dust to AMA",
+    "summary": "If burning, smoke or dust near your home is making the air hard to breathe, you can file a complaint with the AMA Metro Public Health Department.",
+    "details": [
+      "The department handles smoke, dust and noise nuisance complaints.",
+      "Include the area, the address and the signatures of the people affected.",
+      "Metro Public Health Department, Adjabeng (same compound as the Pharmacy Council).",
+      "AMA phone: 0302 665 951 or 0243 211 345. Email: info@ama.gov.gh."
+    ],
+    "when": [
+      "any",
+      "air-high"
+    ],
+    "sources": [
+      {
+        "title": "Accra Metropolitan Assembly: Environmental Health Services",
+        "url": "https://ama.gov.gh/environmental-health-services.php"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "accra-flood-01",
+    "city": "Accra",
+    "category": "Flooding",
+    "title": "Save NADMO's flood emergency numbers",
+    "summary": "The National Disaster Management Organisation (NADMO) handles floods and other disasters. Save its numbers before the rain comes.",
+    "details": [
+      "112: emergency, 24/7.",
+      "0302964884: national emergency line, free from all networks.",
+      "0291913077: NADMO emergency, 24/7.",
+      "WhatsApp: 0204 833 556."
+    ],
+    "when": [
+      "rain-heavy",
+      "flood-risk"
+    ],
+    "sources": [
+      {
+        "title": "NADMO: Contact",
+        "url": "https://nadmo.gov.gh/contact"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "accra-flood-02",
+    "city": "Accra",
+    "category": "Flooding",
+    "title": "Report flooding to NADMO online or on WhatsApp",
+    "summary": "You can report a flood or other disaster on NADMO's online map, with a photo and location, so responders know where help is needed.",
+    "details": [
+      "Use the Report Disaster form on the NADMO map page. Choose 'Flood' as the type.",
+      "Add a description, the region and the location. A photo is optional (JPEG or PNG, up to 5MB).",
+      "You can also report on WhatsApp: 0204 833 556.",
+      "For life-threatening emergencies, call 112 instead."
+    ],
+    "when": [
+      "rain-heavy",
+      "flood-risk"
+    ],
+    "sources": [
+      {
+        "title": "NADMO: Disaster map and report form",
+        "url": "https://nadmo.gov.gh/map"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "accra-flood-03",
+    "city": "Accra",
+    "category": "Flooding",
+    "title": "Get GMet's storm and rain warnings",
+    "summary": "The Ghana Meteorological Agency posts official warnings for rainstorms and thunderstorms. Sign up to get forecasts and alerts by email.",
+    "details": [
+      "Current and past warnings are listed on the GMet alerts page.",
+      "Sign up on meteo.gov.gh to receive forecasts, alerts and flood monitoring bulletins in your inbox.",
+      "GMet also has a WhatsApp community for updates."
+    ],
+    "when": [
+      "any",
+      "rain-heavy",
+      "flood-risk"
+    ],
+    "sources": [
+      {
+        "title": "Ghana Meteorological Agency: Alerts",
+        "url": "https://www.meteo.gov.gh/alerts/"
+      },
+      {
+        "title": "Ghana Meteorological Agency: Sign up",
+        "url": "https://www.meteo.gov.gh/sign-up/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "accra-flood-04",
+    "city": "Accra",
+    "category": "Flooding",
+    "title": "Report a blocked drain to AMA",
+    "summary": "Choked drains are a big cause of Accra's floods. Report blocked drains, gutters or culverts, or flooding, on the AMA's citizen feedback form.",
+    "details": [
+      "Choose 'Drains/gutters', 'Culverts' or 'Flooding' as the category.",
+      "Add the location's Ghana Post GPS digital address and, if you can, a photo.",
+      "AMA phone: 0302 665 951 or 0243 211 345."
+    ],
+    "when": [
+      "any",
+      "rain-heavy"
+    ],
+    "sources": [
+      {
+        "title": "Accra Metropolitan Assembly: Citizens feedback",
+        "url": "https://ama.gov.gh/citizens-feedback.php"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "accra-waste-01",
+    "city": "Accra",
+    "category": "Waste",
+    "title": "Sign up with an AMA-accredited waste collector",
+    "summary": "Every home and business in Accra must subscribe to a waste collection service. Using an AMA-accredited collector keeps rubbish out of drains and away from burning.",
+    "details": [
+      "Subscription to solid waste collection is mandatory for all owners and occupiers of premises.",
+      "Register only with an AMA-accredited service provider in your community. Using unaccredited providers is illegal.",
+      "Charges are set each year in the AMA Fee Fixing Resolution.",
+      "Ask AMA for help: 0302 665 951, 0243 211 345 or info@ama.gov.gh."
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Accra Metropolitan Assembly: Waste Management Services",
+        "url": "https://ama.gov.gh/waste-management-services.php"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "accra-waste-02",
+    "city": "Accra",
+    "category": "Waste",
+    "title": "Report uncollected rubbish or an illegal dump",
+    "summary": "If refuse isn't being collected or someone has started a dump site, report it to the AMA so it's cleared before it's burned or washed into drains.",
+    "details": [
+      "Use the AMA citizen feedback form and choose 'Uncollected Refuse' or 'Illegal Dumpsite'.",
+      "Add the Ghana Post GPS digital address and a photo if you can.",
+      "Or call AMA: 0302 665 951 or 0243 211 345."
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Accra Metropolitan Assembly: Citizens feedback",
+        "url": "https://ama.gov.gh/citizens-feedback.php"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "accra-waste-03",
+    "city": "Accra",
+    "category": "Waste",
+    "title": "Arrange removal of building debris or e-waste",
+    "summary": "The AMA waste department offers special collections for construction debris and e-waste, and septic tank emptying, so these don't end up dumped or burned.",
+    "details": [
+      "Special waste evacuation covers construction debris and e-waste.",
+      "Liquid waste services include septic tank desludging.",
+      "Contact AMA: 0302 665 951, 0243 211 345 or info@ama.gov.gh."
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Accra Metropolitan Assembly: Waste Management Services",
+        "url": "https://ama.gov.gh/waste-management-services.php"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "accra-waste-04",
+    "city": "Accra",
+    "category": "Waste",
+    "title": "Get your plastic waste picked up for recycling",
+    "summary": "Coliba collects plastic, paper and drink cans for recycling across Accra. You can request a pickup or use one of its recycling hubs.",
+    "details": [
+      "Request a pickup with the online waste pickup form or by calling 0200028851.",
+      "Coliba says it has over 40 recycling centres and hubs across Accra.",
+      "The Coliba 2.0 app shows the nearest collection point.",
+      "Collected plastic is turned into flakes and pellets for new products."
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Coliba Ghana: Our services",
+        "url": "https://www.coliba.com.gh/our-services/"
+      },
+      {
+        "title": "Coliba Ghana: Waste pickup form",
+        "url": "https://www.coliba.com.gh/waste-pick-up-form"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "accra-waste-05",
+    "city": "Accra",
+    "category": "Waste",
+    "title": "Join National Sanitation Day",
+    "summary": "On the first Saturday of every month, communities across Ghana clean streets and clear drains together. Shops and markets in Accra close in the morning so everyone can take part.",
+    "details": [
+      "National Sanitation Day is held on the first Saturday of every month in all assemblies.",
+      "Clean your home and surroundings, clear litter from public spaces and join your community clean-up.",
+      "October's exercise (3 October 2026) also marks World Cleanup Day. Accra's main clean-up starts at 7:00 a.m. at Rawlings Park."
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Ghana News Agency: National Sanitation Day to be launched on April 2",
+        "url": "https://gna.org.gh/2025/03/national-sanitation-day-to-be-launched-on-april-2/"
+      },
+      {
+        "title": "GBC: Ghana to observe National Sanitation Day on October 3",
+        "url": "https://www.gbcghanaonline.com/general/sanitation-october-3-ghana/2026/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-02",
+      "method": "schema+spot+freshness"
+    }
+  }
+]
