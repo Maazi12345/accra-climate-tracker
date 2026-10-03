@@ -37,6 +37,12 @@ export function heatPanel(w: WeatherReading | null): Panel {
   } else if (worst >= 30) {
     level = "moderate"; headline = "Hot"; conditions = ["heat-high"];
   }
+  // If it's the afternoon peak (not right now) that triggers the warning,
+  // say so, so a cool night reading doesn't sit next to "Dangerous heat".
+  const threshold: Record<Level, number> = { extreme: 40, high: 35, moderate: 30, good: -Infinity, unknown: -Infinity };
+  if (w.feelsLike < threshold[level]) {
+    headline = `${headline} later today (peak ${num(w.feelsLikeMaxToday)}°C)`;
+  }
   return {
     key: "heat", label: "Heat", value: num(w.feelsLike), unit: "°C feels like", level, headline,
     detail: `Actual ${num(w.temperature)}°C. Today's peak will feel like ${num(w.feelsLikeMaxToday)}°C.`,
@@ -146,7 +152,7 @@ export function pickToday(actions: Action[], panels: Panel[], limit = TODAY_LIMI
     for (const c of p.conditions) {
       const prev = why.get(c);
       if (!prev || score > prev.score) {
-        why.set(c, { score, reason: `${p.label}: ${p.headline} (${p.value} ${p.unit})` });
+        why.set(c, { score, reason: p.headline.includes("(") ? `${p.label}: ${p.headline}` : `${p.label}: ${p.headline} (${p.value} ${p.unit})` });
       }
     }
   }
