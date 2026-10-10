@@ -162,5 +162,37 @@
       "method": "schema+spot+freshness",
       "flag_reason": "Spot check failed: this advice is only in a news report. NADMO's safety tips page didn't show its content when checked, so it couldn't be confirmed on an official page."
     }
+  },
+  {
+    "id": "accra-waste-04",
+    "city": "Accra",
+    "category": "Waste",
+    "title": "Get your plastic waste picked up for recycling",
+    "summary": "Coliba collects plastic, paper and drink cans for recycling across Accra. You can request a pickup or use one of its recycling hubs.",
+    "details": [
+      "Request a pickup with the online waste pickup form or by calling 0200028851.",
+      "Coliba says it has over 40 recycling centres and hubs across Accra.",
+      "The Coliba 2.0 app shows the nearest collection point.",
+      "Collected plastic is turned into flakes and pellets for new products."
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Coliba Ghana: Our services",
+        "url": "https://www.coliba.com.gh/our-services/"
+      },
+      {
+        "title": "Coliba Ghana: Waste pickup form",
+        "url": "https://www.coliba.com.gh/waste-pick-up-form"
+      }
+    ],
+    "verification": {
+      "status": "flagged",
+      "lastChecked": "2026-10-10",
+      "method": "schema+spot+freshness",
+      "flag_reason": "Freshness check failed: when re-checked on 2026-10-10, the site's newest update was from June 2019 and parts of the page still had placeholder text, so it's unclear the pickup service still runs. Call 0200028851 to confirm before moving it back."
+    }
   }
 ]

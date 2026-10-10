@@ -57,7 +57,7 @@
     ],
     "verification": {
       "status": "verified",
-      "lastChecked": "2026-10-02",
+      "lastChecked": "2026-10-10",
       "method": "schema+spot+freshness"
     }
   },
@@ -83,7 +83,7 @@
     ],
     "verification": {
       "status": "verified",
-      "lastChecked": "2026-10-02",
+      "lastChecked": "2026-10-10",
       "method": "schema+spot+freshness"
     }
   },
@@ -114,7 +114,7 @@
     ],
     "verification": {
       "status": "verified",
-      "lastChecked": "2026-10-02",
+      "lastChecked": "2026-10-10",
       "method": "schema+spot+freshness"
     }
   },
@@ -142,7 +142,7 @@
     ],
     "verification": {
       "status": "verified",
-      "lastChecked": "2026-10-02",
+      "lastChecked": "2026-10-10",
       "method": "schema+spot+freshness"
     }
   },
@@ -150,13 +150,12 @@
     "id": "accra-air-03",
     "city": "Accra",
     "category": "Air quality",
-    "title": "Complain about smoke or dust to AMA",
-    "summary": "If burning, smoke or dust near your home is making the air hard to breathe, you can file a complaint with the AMA Metro Public Health Department.",
+    "title": "Report smoke, dust or noise nuisance to AMA",
+    "summary": "AMA's Metro Public Health Department monitors smoke, dust and noise nuisance in the city. If it's affecting your home or street, let AMA know.",
     "details": [
-      "The department handles smoke, dust and noise nuisance complaints.",
-      "Include the area, the address and the signatures of the people affected.",
-      "Metro Public Health Department, Adjabeng (same compound as the Pharmacy Council).",
-      "AMA phone: 0302 665 951 or 0243 211 345. Email: info@ama.gov.gh."
+      "The department's environmental monitoring covers smoke, dust and noise nuisance.",
+      "Noise complaints are made at the Metro Public Health Department.",
+      "For smoke or dust, contact AMA on 0302 665 951 or info@ama.gov.gh."
     ],
     "when": [
       "any",
@@ -170,7 +169,7 @@
     ],
     "verification": {
       "status": "verified",
-      "lastChecked": "2026-10-02",
+      "lastChecked": "2026-10-10",
       "method": "schema+spot+freshness"
     }
   },
@@ -198,7 +197,7 @@
     ],
     "verification": {
       "status": "verified",
-      "lastChecked": "2026-10-02",
+      "lastChecked": "2026-10-10",
       "method": "schema+spot+freshness"
     }
   },
@@ -226,7 +225,7 @@
     ],
     "verification": {
       "status": "verified",
-      "lastChecked": "2026-10-02",
+      "lastChecked": "2026-10-10",
       "method": "schema+spot+freshness"
     }
   },
@@ -258,7 +257,7 @@
     ],
     "verification": {
       "status": "verified",
-      "lastChecked": "2026-10-02",
+      "lastChecked": "2026-10-10",
       "method": "schema+spot+freshness"
     }
   },
@@ -271,7 +270,7 @@
     "details": [
       "Choose 'Drains/gutters', 'Culverts' or 'Flooding' as the category.",
       "Add the location's Ghana Post GPS digital address and, if you can, a photo.",
-      "AMA phone: 0302 665 951 or 0243 211 345."
+      "AMA phone: 0302 665 951."
     ],
     "when": [
       "any",
@@ -285,7 +284,7 @@
     ],
     "verification": {
       "status": "verified",
-      "lastChecked": "2026-10-02",
+      "lastChecked": "2026-10-10",
       "method": "schema+spot+freshness"
     }
   },
@@ -299,7 +298,7 @@
       "Subscription to solid waste collection is mandatory for all owners and occupiers of premises.",
       "Register only with an AMA-accredited service provider in your community. Using unaccredited providers is illegal.",
       "Charges are set each year in the AMA Fee Fixing Resolution.",
-      "Ask AMA for help: 0302 665 951, 0243 211 345 or info@ama.gov.gh."
+      "Ask AMA for help: 0302 665 951 or info@ama.gov.gh."
     ],
     "when": [
       "any"
@@ -312,7 +311,7 @@
     ],
     "verification": {
       "status": "verified",
-      "lastChecked": "2026-10-02",
+      "lastChecked": "2026-10-10",
       "method": "schema+spot+freshness"
     }
   },
@@ -325,7 +324,7 @@
     "details": [
       "Use the AMA citizen feedback form and choose 'Uncollected Refuse' or 'Illegal Dumpsite'.",
       "Add the Ghana Post GPS digital address and a photo if you can.",
-      "Or call AMA: 0302 665 951 or 0243 211 345."
+      "Or call AMA: 0302 665 951."
     ],
     "when": [
       "any"
@@ -338,7 +337,7 @@
     ],
     "verification": {
       "status": "verified",
-      "lastChecked": "2026-10-02",
+      "lastChecked": "2026-10-10",
       "method": "schema+spot+freshness"
     }
   },
@@ -351,7 +350,7 @@
     "details": [
       "Special waste evacuation covers construction debris and e-waste.",
       "Liquid waste services include septic tank desludging.",
-      "Contact AMA: 0302 665 951, 0243 211 345 or info@ama.gov.gh."
+      "Contact AMA: 0302 665 951 or info@ama.gov.gh."
     ],
     "when": [
       "any"
@@ -364,38 +363,7 @@
     ],
     "verification": {
       "status": "verified",
-      "lastChecked": "2026-10-02",
-      "method": "schema+spot+freshness"
-    }
-  },
-  {
-    "id": "accra-waste-04",
-    "city": "Accra",
-    "category": "Waste",
-    "title": "Get your plastic waste picked up for recycling",
-    "summary": "Coliba collects plastic, paper and drink cans for recycling across Accra. You can request a pickup or use one of its recycling hubs.",
-    "details": [
-      "Request a pickup with the online waste pickup form or by calling 0200028851.",
-      "Coliba says it has over 40 recycling centres and hubs across Accra.",
-      "The Coliba 2.0 app shows the nearest collection point.",
-      "Collected plastic is turned into flakes and pellets for new products."
-    ],
-    "when": [
-      "any"
-    ],
-    "sources": [
-      {
-        "title": "Coliba Ghana: Our services",
-        "url": "https://www.coliba.com.gh/our-services/"
-      },
-      {
-        "title": "Coliba Ghana: Waste pickup form",
-        "url": "https://www.coliba.com.gh/waste-pick-up-form"
-      }
-    ],
-    "verification": {
-      "status": "verified",
-      "lastChecked": "2026-10-02",
+      "lastChecked": "2026-10-10",
       "method": "schema+spot+freshness"
     }
   },
@@ -404,11 +372,11 @@
     "city": "Accra",
     "category": "Waste",
     "title": "Join National Sanitation Day",
-    "summary": "On the first Saturday of every month, communities across Ghana clean streets and clear drains together. Shops and markets in Accra close in the morning so everyone can take part.",
+    "summary": "On the first Saturday of every month, communities across Ghana clean streets and clear drains together. Clear drains mean less flooding when the rains come.",
     "details": [
       "National Sanitation Day is held on the first Saturday of every month in all assemblies.",
       "Clean your home and surroundings, clear litter from public spaces and join your community clean-up.",
-      "October's exercise (3 October 2026) also marks World Cleanup Day. Accra's main clean-up starts at 7:00 a.m. at Rawlings Park."
+      "The next one should be Saturday 7 November 2026. Check AMA's news page for local start times."
     ],
     "when": [
       "any"
@@ -419,13 +387,13 @@
         "url": "https://gna.org.gh/2025/03/national-sanitation-day-to-be-launched-on-april-2/"
       },
       {
-        "title": "GBC: Ghana to observe National Sanitation Day on October 3",
-        "url": "https://www.gbcghanaonline.com/general/sanitation-october-3-ghana/2026/"
+        "title": "Accra Metropolitan Assembly: News",
+        "url": "https://ama.gov.gh/news-page.php"
       }
     ],
     "verification": {
       "status": "verified",
-      "lastChecked": "2026-10-02",
+      "lastChecked": "2026-10-10",
       "method": "schema+spot+freshness"
     }
   }
